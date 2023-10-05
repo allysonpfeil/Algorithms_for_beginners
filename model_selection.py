@@ -1,3 +1,6 @@
+# this program will take in a CSV and test which model has the best accuracy from
+    # RF, LR, XGB, SVM, NN
+# import packages
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.ensemble import RandomForestClassifier
